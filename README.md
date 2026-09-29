@@ -4,7 +4,8 @@ A to-do app that turns a written goal into a concrete task plan, then helps you 
 board, notes, a Pomodoro timer and stats. Built with Next.js 16 (App Router), React 19,
 TypeScript and Tailwind CSS v4.
 
-**Live demo:** _(add the Vercel URL here after deploying)_
+**Live demo:** https://todo-ai-f6qxfqilj-larysmith.vercel.app/
+**Source:** https://github.com/Larysmith/todo-ai-app
 
 ---
 
@@ -154,8 +155,11 @@ local planner needs no key.
 3. Accept the detected Next.js preset and deploy.
 4. Add `ANTHROPIC_API_KEY` in Project Settings → Environment Variables *only if* you want Claude
    powered generation.
+5. If the deployment is reachable only after a login, turn off **Vercel Authentication** in
+   Project → Settings → Deployment Protection so the demo URL is publicly viewable.
 
-The live URL is then worth adding to the README at the top of this file.
+> The name `todo-ai-app.vercel.app` was already taken, so Vercel assigned the deployment the
+> project name `todo-ai-f6qxfqilj-larysmith`.
 
 ---
 
